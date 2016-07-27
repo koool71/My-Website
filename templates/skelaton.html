@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% block head %}
+		<link rel="stylesheet" href="/static/css/style.css" />
+		<title>Chris' Website</title>
+		{% endblock %}
+	</head>
+	<body>
+		<div id = "container">
+			<nav id="nav">
+				<ul id="nav-items">
+					<li><a class = "white" href="/">Home</a></li>
+					<li><a class = "blue" href="/about">About</a></li>
+					<li><a class = "red" href="/projects">Projects</a></li>
+					<li><a class = "green" href="/hobbies">Hobbies</a></li>
+					<li><a class = "orange" href="/contact">Contact</a></li>
+				</ul>
+			</nav>
+		
+			{% block content %}
+				<h1 id = "title">Chris Jordan</h1>
+			{% endblock %}
+		</div>
+	</body>
+	
+
+</html>
