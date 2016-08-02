@@ -24,6 +24,12 @@ p{
       color:white;
   }*/
 
+#test{
+  color:white;
+  text-align:center;
+}
+
+
 #container{
   position: relative;
 }
@@ -48,7 +54,6 @@ p{
   text-align: center;
   padding: 16px;
   font-size: 20px;
-  font-family: Palatino Linotype;
   text-decoration: none;
 }
 
@@ -66,14 +71,14 @@ p{
 }
 
 #title2{
-  font-family: Times;
   margin-top: 25px;
   margin-left: 25px;
   position: relative;
   color: white;
 }
 
-.blue{
+
+#blue{
   color:#0099FF;
 }
 
@@ -89,6 +94,6 @@ p{
   color: orange;
 }
 
-.white{
+#white{
   color:white;
 }
