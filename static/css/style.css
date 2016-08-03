@@ -24,11 +24,21 @@ p{
       color:white;
   }*/
 
-#test{
-  color:white;
-  text-align:center;
+#card-color{
+  background-color: #eee;
+  border:3px solid #111111;
+  margin: 20px;
 }
 
+#img-pad{
+  padding-top: 25px;
+  padding-bottom:10px;
+}
+
+#link-margin{
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
 
 #container{
   position: relative;
@@ -37,7 +47,7 @@ p{
 #nav{
   margin-left: 35%;
   list-style-type: none;
-  width: 30%;
+  width: 100%;
   display: inline-block;
 }
 
@@ -82,18 +92,23 @@ p{
   color:#0099FF;
 }
 
-.green{
+#green{
   color:green;
 }
 
-.red{
+#red{
   color: red;
 }
 
-.orange{
+#orange{
   color: orange;
 }
 
 #white{
   color:white;
+}
+
+#black{
+  border-color:black;
+  color: black;
 }
