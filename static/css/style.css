@@ -24,10 +24,20 @@ p{
       color:white;
   }*/
 
+#shadow{
+  box-shadow: 5px 10px 50px #888888;;
+}
+
+#black span{
+  color: #777;
+  font-size: 12px;
+}
+
 #card-color{
   background-color: #eee;
   border:3px solid #111111;
   margin: 20px;
+  box-shadow: 5px 10px 50px #888888;
 }
 
 #img-pad{

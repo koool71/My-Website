@@ -1,7 +1,7 @@
 {% extends "index.html" %}
 {% block content %}
 	<div class="container">
-		<div class="jumbotron text-center">
+		<div class="jumbotron text-center" id = "shadow">
 			<h1>Projects</h1>
 		</div>
 	</div>
@@ -10,26 +10,37 @@
 	<!--Testing how to get the card I want-->
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4" id = "card-color">
+			<div class="col-sm-5" id = "card-color">
 				<div class="card">
 					<div class="card-block">
-						<h4 class="card-title" id = "black">Testing Title</h4>
+						<h4 class="card-title" id = "black">Shortest Path <span> - Scala</span></h4>
 						<hr id = "black">
-						<p class="card-text" id = "black">Testing text one two three four five six seven eight nine ten eleven twelve thirteen</p>
-						<a href="www.google.com" class="btn btn-primary" id ="link-margin">Google it</a>
+						<p class="card-text" id = "black">Developed a shortest path algorithm in Scala in an attempt to learn the language. Able to determine the most efficient sequence of paths to follow given a list of paths from point A to point B and their individual distances.</p>
+						<a href="https://github.com/koool71/Scala-Challenge" class="btn btn-primary" id ="link-margin">Github Link</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4" id = "card-color">
+			<div class="col-sm-5" id = "card-color">
 				<div class="card">
 					<div class="card-block">
-						<h4 class="card-title" id = "black">Testing Title</h4>
+						<h4 class="card-title" id = "black">Flaskr <span>- Python/Flask, HTML5/CSS3, mySQL, Javascript</span></h4>
 						<hr id = "black">
-						<p class="card-text" id = "black">Testing text one two three four five six seven eight nine ten eleven twelve thirteen</p>
-						<a href="www.google.com" class="btn btn-primary" id ="link-margin">Google it</a>
+						<p class="card-text" id = "black">Micro blog developed with python flask and sqlite3 that allows a user to login and add posts to the blog. Beginning app to help me learn flask and sqlite3 within the context of web development.</p>
+						<a href="https://github.com/koool71/flaskr" class="btn btn-primary" id ="link-margin">Github Link</a>
 					</div>
 				</div>
-			
+			</div>
+		</div>
+		<div class="row">	
+			<div class="col-sm-12" id = "card-color">
+				<div class="card">
+					<div class="card-block">
+						<h4 class="card-title" id = "black">Personal Website <span> - Python/Flask, HTML5/CSS bootstrap 3, Javascript/JQuery</span></h4>
+						<hr id = "black">
+						<p class="card-text" id = "black">My first attempt at creating a website from scratch! My goal is to showcase my ability to be a self starter and learn new skills on my own. I also want to provide an opportunity for potential employers to learn more about me and my skillset.</p>
+						<a href="https://github.com/koool71/My-Website" class="btn btn-primary" id ="link-margin">Github Link</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
