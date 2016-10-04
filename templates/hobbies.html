@@ -4,7 +4,71 @@
 		<div class="jumbotron text-center" id = "shadow">
 			<h1>Hobbies</h1>
 		</div>
-		<img src="/static/images/basketball.png">
-		<img src="/static/images/musical-note.png">
+		<div class="col-sm-4">
+			
+		    <img src="/static/images/basketball.png" id = "test" onclick="show_sports()">
+			
+			<div class = "card" id = "sports-block" style="display: none">
+				<div class="card-block" id="hobby-color">
+					<p class="card-text" id = "black">Basketball is by far my favorite sport. I try to play 3-5 times a week at the gym and watch every Knicks game I have time for. I've also played soccer
+					for over 10 years and am a huge football fan</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="/static/images/musical-note.png" id = "test" onclick="show_music()">
+			
+			<div class = "card" id = "music-block" style="display: none">
+				<div class="card-block" id="hobby-color">
+					<p class="card-text" id = "black">I started playing piano at 8 and have since learned alto/tenor sax, acoustic guitar, and have become a professional shower singer.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="/static/images/monitor-keyboard-and-mouse.png" id = "test" onclick="show_computer()">
+			
+			<div class = "card" id = "computer-block" style="display: none">
+				<div class="card-block" id="hobby-color">
+					<p class="card-text" id = "black">Whether it's video games, coding, or browsing the web (usually reddit) I've always been glued to my computer since I was a kid. I'm always excited
+					for the newest hardware and actually built my own gaming PC this past summer. I'm ecstatic to be following a career path that allows me to make the most of my passion.</p>
+				</div>
+			</div>
+		</div>
+		
+
+		<script>
+		function show_sports(){
+			if(document.getElementById('sports-block') .style.display == "none")
+			{
+				document.getElementById("sports-block").style.display = "block";
+			}
+			else
+			{
+				document.getElementById("sports-block").style.display = "none";
+			}
+		}
+
+		function show_music(){
+			if(document.getElementById('music-block') .style.display == "none")
+			{
+				document.getElementById("music-block").style.display = "block";
+			}
+			else
+			{
+				document.getElementById("music-block").style.display = "none";
+			}
+		}
+
+		function show_computer(){
+			if(document.getElementById('computer-block') .style.display == "none")
+			{
+				document.getElementById("computer-block").style.display = "block";
+			}
+			else
+			{
+				document.getElementById("computer-block").style.display = "none";
+			}
+		}
+		</script>
 	</div>
 {% endblock %}

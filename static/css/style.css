@@ -23,6 +23,21 @@ p{
       background:red;
       color:white;
   }*/
+#music-block{
+  margin: 5px;
+
+}
+
+#sports-block{
+  margin: 5px;
+  
+}
+
+#test{
+  margin-left: 15%;
+  margin-bottom: 0px;
+  margin-top: 50%;
+}
 
 #shadow{
   box-shadow: 5px 10px 50px #888888;
@@ -39,6 +54,27 @@ p{
   border:3px solid #111111;
   margin: 27px;
   box-shadow: 5px 10px 50px #888888;
+}
+
+#hobby-color{
+  background-color: #eee;
+  border:3px solid #111111;
+  box-shadow: 5px 10px 50px #888888;
+  padding: 15px;
+  max-height: 200px;
+  min-height: 200px;
+  overflow: scroll;
+}
+
+#about-color{
+  background-color: #eee;
+  border:3px solid #111111;
+  box-shadow: 5px 10px 50px #888888;
+  padding: 15px;
+}
+
+#about-color p{
+  color: black;
 }
 
 #img-pad{
