@@ -1,12 +1,12 @@
 {% extends "index.html" %}
 {% block content %}
-	<div class="container">
+	<div class="container" id="hobbies">
 		<div class="jumbotron text-center" id = "shadow">
 			<h1>Hobbies</h1>
 		</div>
 		<div class="col-sm-4">
 			
-		    <img src="/static/images/basketball.png" id = "test" onclick="show_sports()">
+		    <img src="/static/images/basketball.png" id = "hobby-image" onclick="show_sports()">
 			
 			<div class = "card" id = "sports-block" style="display: none">
 				<div class="card-block" id="hobby-color">
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 		<div class="col-sm-4">
-			<img src="/static/images/musical-note.png" id = "test" onclick="show_music()">
+			<img src="/static/images/musical-note.png" id = "hobby-image" onclick="show_music()">
 			
 			<div class = "card" id = "music-block" style="display: none">
 				<div class="card-block" id="hobby-color">
@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="col-sm-4">
-			<img src="/static/images/monitor-keyboard-and-mouse.png" id = "test" onclick="show_computer()">
+			<img src="/static/images/monitor-keyboard-and-mouse.png" id = "hobby-image" onclick="show_computer()">
 			
 			<div class = "card" id = "computer-block" style="display: none">
 				<div class="card-block" id="hobby-color">

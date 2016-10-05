@@ -23,6 +23,17 @@ p{
       background:red;
       color:white;
   }*/
+
+#hobbies .card-block p{
+  font-size: 11px;
+}
+
+#foot {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10%;
+}
+
 #music-block{
   margin: 5px;
 
@@ -33,10 +44,16 @@ p{
   
 }
 
-#test{
+#computer-block{
+  margin:5px;
+  overflow:hidden;
+}
+
+#hobby-image{
   margin-left: 15%;
   margin-bottom: 0px;
   margin-top: 50%;
+  cursor: pointer;
 }
 
 #shadow{
@@ -63,7 +80,7 @@ p{
   padding: 15px;
   max-height: 200px;
   min-height: 200px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #about-color{
@@ -91,17 +108,19 @@ p{
   position: relative;
 }
 
-#nav{
-  padding-left: 35%;
-  list-style-type: none;
-  width: 100%;
-  display: inline-block;
+#nav-center{
+  text-align: center;
+  overflow: hidden;
 }
+
+#nav{
+   display: inline-block;
+ }
 
 #nav-items li{
   list-style-type: none; 
   float: left; 
-  padding-left: 0px;
+  margin: auto;
 }
 
 
